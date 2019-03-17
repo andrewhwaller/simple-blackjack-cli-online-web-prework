@@ -28,7 +28,7 @@ def initial_round
   return card_total
 end
 
-def hit?
+def hit?(number)
   prompt_user
   get_user_input
   if get_user_input == "h"
